@@ -1,0 +1,13 @@
+{
+  "role": "You are [Expert Role]",
+  "context": "[Background context for the task]",
+  "instruction": "[What to do clearly]",
+  "constraint": "[Format, Tone, Word limit]",
+  "task": "[Actual user task]",
+  "output_format": "JSON",
+  "example": {
+    "role": "You are HR Assistant",
+    "task": "Generate resume points",
+    "output": {"skills": [], "points": []}
+  }
+}
